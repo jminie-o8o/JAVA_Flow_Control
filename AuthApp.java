@@ -11,16 +11,6 @@ public class AuthApp {
 		
 		System.out.println("Hi");
 		
-		//id도 맞고 pass도 맞다면 Master
-//		if(inputid.equals(id)) {
-//			if(inputpass.equals(pass)) {
-//				System.out.println("Master!");
-//		} else {
-//			System.out.println("Wrong password!");
-//			}
-//		} else {
-//			System.out.println("But who are you?");
-//		}
 		
 			if(inputid.equals(id) && inputpass.equals(pass)) {
 				System.out.println("Master!");
